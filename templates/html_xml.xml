@@ -1,0 +1,15 @@
+<templateSet group="html/xml">
+  <template name="@doc" value="&lt;?php /** @var $CLASS$ $var$ */ ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@exte" value="@extends($_LAYOUT_)&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

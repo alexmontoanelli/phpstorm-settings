@@ -1,0 +1,24 @@
+<templateSet group="wvs">
+  <template name="@table" value="@table $CLASS$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="@criado" value="@criado $DATA$ $TIME$ - $USUARIO$ " description="" toReformat="false" toShortenFQNames="true">
+    <variable name="DATA" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <variable name="USUARIO" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="@modificado" value="@modificado $USUARIO$ - $DATA$ - $TIME$ -  " description="" toReformat="false" toShortenFQNames="true">
+    <variable name="USUARIO" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,12 @@
+<list display="Unetvale" description="Unetvale">
+  <action id="OptimizeImports" />
+  <action id="ReformatCode" />
+  <action id="CodeCleanup" />
+  <action id="InspectCode" />
+  <action id="QuickList.$Separator$" />
+  <action id="SliceBackward" />
+  <action id="SliceForward" />
+  <action id="QuickList.$Separator$" />
+  <action id="Generate" />
+  <action id="SurroundWith" />
+</list>

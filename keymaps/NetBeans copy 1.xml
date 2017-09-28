@@ -1,0 +1,43 @@
+<keymap version="1" name="NetBeans copy 1" parent="NetBeans 6.5">
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="Console.Execute" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.SelectedChange" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
+  <action id="EditorAddRectangularSelectionOnMouseDrag" />
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <mouse-shortcut keystroke="control button142" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <mouse-shortcut keystroke="control button143" />
+  </action>
+  <action id="ExportToTextFile" />
+  <action id="GotoChangedFile" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="Images.Thumbnails.EnterAction" />
+  <action id="NextTab" />
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="QuickList.Unetvale">
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
+</keymap>
